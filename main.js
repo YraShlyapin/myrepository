@@ -16,6 +16,7 @@ let Item1 = require("./item1.vue");
 let Item2 = require("./item2.vue");
 let Item3 = require("./item3.vue");
 let Item4 = require("./item4.vue");
+let NotFounded = require("./notFounded.vue")
 
 
 //все остальное
@@ -33,6 +34,7 @@ let router = new VueRouter({
     {path: "/mmorpg/:index",component:Item2},
     {path: "/quest/:index",component:Item3},
     {path: "/role-play/:index",component:Item4},
+    { path: "*", component: NotFounded}
  ]
  });
 

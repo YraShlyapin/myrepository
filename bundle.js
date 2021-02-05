@@ -533,6 +533,7 @@ let Item1 = require("./item1.vue");
 let Item2 = require("./item2.vue");
 let Item3 = require("./item3.vue");
 let Item4 = require("./item4.vue");
+let NotFounded = require("./notFounded.vue")
 
 
 //все остальное
@@ -550,6 +551,7 @@ let router = new VueRouter({
     {path: "/mmorpg/:index",component:Item2},
     {path: "/quest/:index",component:Item3},
     {path: "/role-play/:index",component:Item4},
+    { path: "*", component: NotFounded}
  ]
  });
 
@@ -561,7 +563,7 @@ let vm = new Vue({
         return createElement(App);
     }
 });
-},{"./app.vue":4,"./item.vue":10,"./item1.vue":11,"./item2.vue":12,"./item3.vue":13,"./item4.vue":14,"./main.vue":16,"./mmorpg.vue":18,"./quest.vue":27,"./role-play.vue":28,"./shooters.vue":29,"./strategy.vue":30,"vue":24,"vue-resource":21,"vue-router":22}],16:[function(require,module,exports){
+},{"./app.vue":4,"./item.vue":10,"./item1.vue":11,"./item2.vue":12,"./item3.vue":13,"./item4.vue":14,"./main.vue":16,"./mmorpg.vue":18,"./notFounded.vue":27,"./quest.vue":28,"./role-play.vue":29,"./shooters.vue":30,"./strategy.vue":31,"vue":24,"vue-resource":21,"vue-router":22}],16:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\ndisplay: inline-block;\nmargin-left: 5px;\n}   \n.classichesciy{\n    text-decoration: none;\n    color: black;\n}")
 ;(function(){
 "use strict";
@@ -14048,6 +14050,21 @@ exports.insert = function (css) {
 }
 
 },{}],27:[function(require,module,exports){
+var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
+if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._v("asdasdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh")])}
+__vue__options__.staticRenderFns = []
+if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-68143363", __vue__options__)
+  } else {
+    hotAPI.rerender("data-v-68143363", __vue__options__)
+  }
+})()}
+},{"vue":24,"vue-hot-reload-api":20}],28:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\ndisplay: inline-block;\nmargin-left: 5px;\n}   \n.classichesciy{\n    text-decoration: none;\n    color: black;\n}")
 ;(function(){
 "use strict";
@@ -14084,7 +14101,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
     hotAPI.reload("data-v-435ccddd", __vue__options__)
   }
 })()}
-},{"./databases/quest.js":6,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],28:[function(require,module,exports){
+},{"./databases/quest.js":6,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],29:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\ndisplay: inline-block;\nmargin-left: 5px;\n}   \n.classichesciy{\n    text-decoration: none;\n    color: black;\n}")
 ;(function(){
 "use strict";
@@ -14121,7 +14138,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
     hotAPI.reload("data-v-78128526", __vue__options__)
   }
 })()}
-},{"./databases/role-play.js":7,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],29:[function(require,module,exports){
+},{"./databases/role-play.js":7,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],30:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\r\ndisplay: inline-block;\r\nmargin-left: 5px;\r\n}   \r\n.classichesciy{\r\n    text-decoration: none;\r\n    color: black;\r\n}")
 ;(function(){
 "use strict";
@@ -14158,7 +14175,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
     hotAPI.reload("data-v-1cbb61bc", __vue__options__)
   }
 })()}
-},{"./databases/shooters.js":8,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],30:[function(require,module,exports){
+},{"./databases/shooters.js":8,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],31:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\n    display: inline-block;\n    margin-left: 5px;\n}   \n    .classichesciy{\n        text-decoration: none;\n        color: black;\n    }")
 ;(function(){
 "use strict";
