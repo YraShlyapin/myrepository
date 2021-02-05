@@ -7,7 +7,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -19,5 +18,16 @@
     "vue-router": "^3.4.9",
     "vue-template-compiler": "^2.6.12",
     "vueify": "^9.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YraShlyapin/myrepository.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/YraShlyapin/myrepository/issues"
+  },
+  "homepage": "https://github.com/YraShlyapin/myrepository#readme",
+  "description": ""
 }
