@@ -286,9 +286,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-80841748", __vue__options__)
+    hotAPI.createRecord("data-v-396bafa5", __vue__options__)
   } else {
-    hotAPI.reload("data-v-80841748", __vue__options__)
+    hotAPI.reload("data-v-396bafa5", __vue__options__)
   }
 })()}
 },{"./menu.vue":17,"vue":24,"vue-hot-reload-api":20}],5:[function(require,module,exports){
@@ -389,9 +389,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3b34b068", __vue__options__)
+    hotAPI.createRecord("data-v-11834382", __vue__options__)
   } else {
-    hotAPI.reload("data-v-3b34b068", __vue__options__)
+    hotAPI.reload("data-v-11834382", __vue__options__)
   }
 })()}
 },{"./databases/strategy.js":9,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],11:[function(require,module,exports){
@@ -419,9 +419,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2b6aee79", __vue__options__)
+    hotAPI.createRecord("data-v-1ed208fc", __vue__options__)
   } else {
-    hotAPI.reload("data-v-2b6aee79", __vue__options__)
+    hotAPI.reload("data-v-1ed208fc", __vue__options__)
   }
 })()}
 },{"./databases/shooters.js":8,"vue":24,"vue-hot-reload-api":20}],12:[function(require,module,exports){
@@ -449,9 +449,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2b7905fa", __vue__options__)
+    hotAPI.createRecord("data-v-1eb5d9fa", __vue__options__)
   } else {
-    hotAPI.reload("data-v-2b7905fa", __vue__options__)
+    hotAPI.reload("data-v-1eb5d9fa", __vue__options__)
   }
 })()}
 },{"./databases/mmorpg.js":5,"vue":24,"vue-hot-reload-api":20}],13:[function(require,module,exports){
@@ -479,9 +479,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2b871d7b", __vue__options__)
+    hotAPI.createRecord("data-v-1e99aaf8", __vue__options__)
   } else {
-    hotAPI.reload("data-v-2b871d7b", __vue__options__)
+    hotAPI.reload("data-v-1e99aaf8", __vue__options__)
   }
 })()}
 },{"./databases/quest.js":6,"vue":24,"vue-hot-reload-api":20}],14:[function(require,module,exports){
@@ -509,9 +509,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2b9534fc", __vue__options__)
+    hotAPI.createRecord("data-v-1e7d7bf6", __vue__options__)
   } else {
-    hotAPI.reload("data-v-2b9534fc", __vue__options__)
+    hotAPI.reload("data-v-1e7d7bf6", __vue__options__)
   }
 })()}
 },{"./databases/role-play.js":7,"vue":24,"vue-hot-reload-api":20}],15:[function(require,module,exports){
@@ -589,9 +589,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-16f70fe4", __vue__options__)
+    hotAPI.createRecord("data-v-9ee3b436", __vue__options__)
   } else {
-    hotAPI.reload("data-v-16f70fe4", __vue__options__)
+    hotAPI.reload("data-v-9ee3b436", __vue__options__)
   }
 })()}
 },{"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],17:[function(require,module,exports){
@@ -606,9 +606,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5def7698", __vue__options__)
+    hotAPI.createRecord("data-v-e5dc1aea", __vue__options__)
   } else {
-    hotAPI.reload("data-v-5def7698", __vue__options__)
+    hotAPI.reload("data-v-e5dc1aea", __vue__options__)
   }
 })()}
 },{"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],18:[function(require,module,exports){
@@ -643,9 +643,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-e9ef4962", __vue__options__)
+    hotAPI.createRecord("data-v-6b5def66", __vue__options__)
   } else {
-    hotAPI.reload("data-v-e9ef4962", __vue__options__)
+    hotAPI.reload("data-v-6b5def66", __vue__options__)
   }
 })()}
 },{"./databases/mmorpg.js":5,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],19:[function(require,module,exports){
@@ -668,9 +668,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-22683bb4", __vue__options__)
+    hotAPI.createRecord("data-v-aa54e006", __vue__options__)
   } else {
-    hotAPI.reload("data-v-22683bb4", __vue__options__)
+    hotAPI.reload("data-v-aa54e006", __vue__options__)
   }
 })()}
 },{"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],20:[function(require,module,exports){
@@ -14050,21 +14050,23 @@ exports.insert = function (css) {
 }
 
 },{}],27:[function(require,module,exports){
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#centor1{\n    padding-top: 100px;\n    text-align:  center;\n}")
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
 __vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("\n        404\n    ")])])}]
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',{attrs:{"id":"centor1"}},[_vm._v("ошибка 404"),_c('br'),_vm._v("страница не найдена ")])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   module.hot.accept()
+  module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-68143363", __vue__options__)
+    hotAPI.createRecord("data-v-3cc3e3fa", __vue__options__)
   } else {
-    hotAPI.reload("data-v-68143363", __vue__options__)
+    hotAPI.rerender("data-v-3cc3e3fa", __vue__options__)
   }
 })()}
-},{"vue":24,"vue-hot-reload-api":20}],28:[function(require,module,exports){
+},{"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],28:[function(require,module,exports){
 var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\ndisplay: inline-block;\nmargin-left: 5px;\n}   \n.classichesciy{\n    text-decoration: none;\n    color: black;\n}")
 ;(function(){
 "use strict";
@@ -14096,9 +14098,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-435ccddd", __vue__options__)
+    hotAPI.createRecord("data-v-0888dae6", __vue__options__)
   } else {
-    hotAPI.reload("data-v-435ccddd", __vue__options__)
+    hotAPI.reload("data-v-0888dae6", __vue__options__)
   }
 })()}
 },{"./databases/quest.js":6,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],29:[function(require,module,exports){
@@ -14133,9 +14135,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-78128526", __vue__options__)
+    hotAPI.createRecord("data-v-7eeee5af", __vue__options__)
   } else {
-    hotAPI.reload("data-v-78128526", __vue__options__)
+    hotAPI.reload("data-v-7eeee5af", __vue__options__)
   }
 })()}
 },{"./databases/role-play.js":7,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],30:[function(require,module,exports){
@@ -14170,9 +14172,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1cbb61bc", __vue__options__)
+    hotAPI.createRecord("data-v-3dfc4c13", __vue__options__)
   } else {
-    hotAPI.reload("data-v-1cbb61bc", __vue__options__)
+    hotAPI.reload("data-v-3dfc4c13", __vue__options__)
   }
 })()}
 },{"./databases/shooters.js":8,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],31:[function(require,module,exports){
@@ -14207,9 +14209,9 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   module.hot.accept()
   module.hot.dispose(__vueify_style_dispose__)
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-73bd7b70", __vue__options__)
+    hotAPI.createRecord("data-v-313ba6c2", __vue__options__)
   } else {
-    hotAPI.reload("data-v-73bd7b70", __vue__options__)
+    hotAPI.reload("data-v-313ba6c2", __vue__options__)
   }
 })()}
 },{"./databases/strategy.js":9,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}]},{},[15]);
