@@ -1,6 +1,6 @@
 <template>
     <div id="inGallery">
-        <p>{{msg}}</p>
+        <p>на этом сайте вы можете посмотреть все игры</p>
     </div>
 </template>
 <style>
@@ -17,7 +17,7 @@
  module.exports={
      data(){
         return{
-            msg:"asdasd",
+            
         }
      },
     components:{

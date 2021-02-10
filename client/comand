@@ -1,0 +1,34 @@
+browserify main.js -o bundle.js --transform vueify
+watchify main.js -o bundle.js --transform vueify
+sass sass.scss style.css
+npm install -g sass
+npm init --force
+npm install vue --save babel-core babel-plugin-transform-runtime babel-preset-es2015 babel-runtime vue-template-compiler vueify --save-exact
+node "index (1).js"
+npm init --force
+npm install -g browserify
+npm install -g watchify
+npm install vue --save
+npm install babel-core babel-plugin-transform-runtime babel-preset-es2015 babel-runtime vue-template-compiler vueify --save
+npm install vue-router --save
+
+
+npm install express --save-exact
+
+
+
+
+
+Обновление отдельного поля
+Часто не требуется обновлять весь документ, а только значение одного из его ключей. Для этого применяется оператор $set. Если документ не содержит обновляемое поле, то оно создается.
+
+1
+> db.users.update({name : "Tom", age: 29}, {$set: {age : 30}})
+
+
+
+
+show databases
+use sandbox
+show collection
+db.коллекция.insert()

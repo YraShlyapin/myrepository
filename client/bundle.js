@@ -570,9 +570,7 @@ var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\n
 
 module.exports = {
     data: function data() {
-        return {
-            msg: "asdasd"
-        };
+        return {};
     },
 
     components: {}
@@ -581,8 +579,8 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"inGallery"}},[_c('p',[_vm._v(_vm._s(_vm.msg))])])}
-__vue__options__.staticRenderFns = []
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+__vue__options__.staticRenderFns = [function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"inGallery"}},[_c('p',[_vm._v("на этом сайте вы можете посмотреть все игры")])])}]
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
@@ -14063,7 +14061,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   if (!module.hot.data) {
     hotAPI.createRecord("data-v-3cc3e3fa", __vue__options__)
   } else {
-    hotAPI.rerender("data-v-3cc3e3fa", __vue__options__)
+    hotAPI.reload("data-v-3cc3e3fa", __vue__options__)
   }
 })()}
 },{"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],28:[function(require,module,exports){
