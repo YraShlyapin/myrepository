@@ -5,7 +5,7 @@ npm install -g sass
 npm init --force
 npm install vue --save babel-core babel-plugin-transform-runtime babel-preset-es2015 babel-runtime vue-template-compiler vueify --save-exact
 node "index (1).js"
-npm init --force
+
 npm install -g browserify
 npm install -g watchify
 npm install vue --save
