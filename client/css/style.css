@@ -1,76 +1,47 @@
-@charset "UTF-8";
-/*Обнуление*/
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
+@media screen and (max-width: 360px) {
+  body {
+    background-color: green;
+  }
 }
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+@media screen and (min-width: 361px) {
+  body {
+    background-color: blue;
+  }
 }
-
-:focus, :active {
-  outline: none;
+@media screen and (min-width: 481px) {
+  body {
+    background-color: yellow;
+  }
 }
-
-a:focus, a:active {
-  outline: none;
+@media screen and (min-width: 541px) {
+  body {
+    background-color: hotpink;
+  }
 }
-
-nav, footer, header, aside {
-  display: block;
+@media screen and (min-width: 641px) {
+  body {
+    background-color: gray;
+  }
 }
-
-html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+@media screen and (min-width: 721px) {
+  body {
+    background-color: yellowgreen;
+  }
 }
-
-input, button, textarea {
-  font-family: inherit;
+@media screen and (min-width: 1081px) {
+  body {
+    background-color: yellowgreen;
+  }
 }
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: inherit;
+@media screen and (min-width: 1921px) {
+  #inMove{
+    /* width: 100%; */
+    width: 250px;
+    height: 360px;
+ }
+  body {
+    background-color: yellowgreen;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

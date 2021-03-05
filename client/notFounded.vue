@@ -4,8 +4,8 @@
     </div>
 </template>
 <style>
-    #centor1{
+    #centor1 {
         padding-top: 100px;
-        text-align:  center;
+        text-align: center;
     }
 </style>

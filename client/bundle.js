@@ -279,7 +279,7 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('menue'),_vm._v(" "),_c('router-view')],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('menue'),_vm._v(" "),_c('div',{attrs:{"id":"mn"}},[_c('router-view')],1)],1)}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -14139,7 +14139,7 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   }
 })()}
 },{"./databases/role-play.js":7,"./move.vue":19,"vue":24,"vue-hot-reload-api":20,"vueify/lib/insert-css":26}],30:[function(require,module,exports){
-var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#move{\r\ndisplay: inline-block;\r\nmargin-left: 5px;\r\n}   \r\n.classichesciy{\r\n    text-decoration: none;\r\n    color: black;\r\n}")
+var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert("#inGallery{\n    display: inline-block;\n}\n.classichesciy{\n    text-decoration: none;\n    color: black;\n}")
 ;(function(){
 "use strict";
 

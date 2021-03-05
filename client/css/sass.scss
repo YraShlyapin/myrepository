@@ -1,1 +1,46 @@
-@import "nullstyle.scss";
+//@import "nullstyle.scss";
+@media screen and (max-width: 360px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 361px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 481px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 541px) {
+  body {
+    background-color: hotpink;
+  }
+}
+@media screen and (min-width: 641px) {
+  body {
+    background-color: gray;
+  }
+}
+@media screen and (min-width: 721px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+@media screen and (min-width: 1081px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+@media screen and (min-width: 1921px) {
+  div{
+    #move{
+      width: 240;
+    }
+  }
+  body {
+    background-color: yellowgreen;
+  }
+}
